@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    /* background-image: url("https://files.slack.com/files-pri/T077KKCG6-FDHMW6FB5/crazy.png"); */
+    color: blue;
+    font-size: 1.5em;
+    /* font-family: 'Titan One', cursive; */
+}
+/* .containerfluid{
+    padding:25px;
+    width:300px;
+    margin:25px;
+    border:5px solid green;
+    text-align: center
+} */
+/* h{
+    font-style: Clarendon;
+} */

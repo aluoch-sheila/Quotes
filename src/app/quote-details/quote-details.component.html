@@ -1,0 +1,15 @@
+
+<div class="container">
+
+        <h3>Votes:{{quote.upVotes}}</h3>
+
+        <div class="button">
+        <button class="btn btn-success" (click)='upVotes()' >{{quote.upVotes}}<img width="30" height="30" src="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/thumbs-up-circle-blue-512.png" alt="">  </button>
+
+        <button class="btn btn-danger" (click)='downVotes()' >{{quote.downVotes}}<img width="30" height="30" src="https://idmd.ca/wp-content/uploads/2016/06/thumbsdown.png">  </button>
+       
+    </div>
+    <br>
+    <br>
+        <button class="btn btn-danger" (click) = 'quoteDelete(true)'><img height="40" width="40" src="https://png.icons8.com/small/1600/filled-trash.png" alt=""> </button>
+        </div>

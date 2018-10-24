@@ -1,0 +1,19 @@
+<h1>Quote</h1>
+<div class="container">
+    <div class="row">
+        <app-quote-form (addQuote)="addNew($event)"></app-quote-form>
+        
+        
+    </div>
+
+</div>
+<hr>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ5odWOodmsXCC5AoPgKjCDIRtobsxD-fk4HD6Vto_Y5KfG6UUFg" width="900" height="250">
+<ul>
+    <div *ngFor='let quote of quotes; let i = index'>
+        <li >{{quote.name}}</li> 
+        <button  (click)='toogleDetails(i)'>Toogle Details</button>
+        <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+    </div>
+</ul>
+<p *ngIf='quotes.length > 5'>Too many quotes</p>
