@@ -7,13 +7,13 @@ body{
     background-size:cover;
     /* font-family: 'Titan One', cursive; */
 }
-/* .containerfluid{
+.containerfluid{
     padding:25px;
     width:300px;
-    margin:25px;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTHi2duqFkUDTwX69u3GvAppbQwEbZeKjnoXIn_r2qvNJXQGO
-    border:5px solid green;
+    margin:25px;
+    border:5px solid black;
     text-align: center
-} */
+}
 /* h{
     font-style: Clarendon;
 } */
