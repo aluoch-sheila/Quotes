@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    /* background-image: url("https://files.slack.com/files-pri/T077KKCG6-FDHMW6FB5/crazy.png"); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTHi2duqFkUDTwX69u3GvAppbQwEbZeKjnoXIn_r2qvNJXQGO");
     color: blue;
     font-size: 1.5em;
+    background-repeat: no-repeat;
+    background-size:cover;
     /* font-family: 'Titan One', cursive; */
 }
 /* .containerfluid{
     padding:25px;
     width:300px;
-    margin:25px;
+    margin:25px;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTHi2duqFkUDTwX69u3GvAppbQwEbZeKjnoXIn_r2qvNJXQGO
     border:5px solid green;
     text-align: center
 } */
